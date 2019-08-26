@@ -1,0 +1,1794 @@
+@-ms-viewport {
+  width: device-width;
+}
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Bold.woff2') format('woff2'), url('../fonts/Arboria-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Medium.woff2') format('woff2'), url('../fonts/Arboria-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arboria-Book';
+  src: url('../fonts/Arboria-Book.woff2') format('woff2'), url('../fonts/Arboria-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'swell-rewards';
+  src: url('../fonts/swell-rewards.eot?245o0f');
+  src: url('../fonts/swell-rewards.eot?245o0f#iefix') format('embedded-opentype'), url('../fonts/swell-rewards.ttf?245o0f') format('truetype'), url('../fonts/swell-rewards.woff?245o0f') format('woff'), url('../fonts/swell-rewards.svg?245o0f#swell-rewards') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="swell-icon-"], [class*=" swell-icon-"] {
+  font-family: 'swell-rewards' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.swell-icon-forma-11:before {
+  content: "\e902";
+}
+.swell-icon-shape-1:before {
+  content: "\e903";
+}
+.swell-icon-shape-3:before {
+  content: "\e904";
+}
+.swell-icon-shape-4:before {
+  content: "\e905";
+}
+.swell-icon-group-3 .path1:before {
+  content: "\e906";
+  color: #fdb945;
+}
+.swell-icon-group-3 .path2:before {
+  content: "\e907";
+  margin-left: -0.70996em;
+  color: #fff;
+}
+.swell-icon-forma-1:before {
+  content: "\e908";
+  color: #fff;
+}
+.swell-icon-forma-1_2:before {
+  content: "\e909";
+  color: #fff;
+}
+.swell-icon-forma-1_3:before {
+  content: "\e90a";
+  color: #fff;
+}
+.swell-icon-forma-1_4:before {
+  content: "\e90b";
+  color: #fff;
+}
+.swell-icon-forma-1_5:before {
+  content: "\e90c";
+  color: #fff;
+}
+.swell-icon-group-2:before {
+  content: "\e90d";
+  color: #fff;
+}
+.swell-icon-circle-left:before {
+  content: "\e900";
+}
+.swell-icon-left:before {
+  content: "\e900";
+}
+.swell-icon-circle-previous:before {
+  content: "\e900";
+}
+.swell-icon-arrow:before {
+  content: "\e900";
+}
+.swell-icon-circle-right:before {
+  content: "\e901";
+}
+.swell-icon-right:before {
+  content: "\e901";
+}
+.swell-icon-circle-next:before {
+  content: "\e901";
+}
+.swell-icon-arrow1:before {
+  content: "\e901";
+}
+/* Icons generated Code End */
+/* Generic Buttons Code Start */
+.swell-link-list {
+  text-align: center;
+}
+.swell-link-list .swell-link {
+  max-width: 200px;
+  margin: 0 auto 1em;
+  width: 100%;
+  display: block;
+}
+@media (min-width: 480px) {
+  .swell-link-list .swell-link {
+    max-width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-link-list .swell-link {
+    max-width: 235px;
+    display: inline-block;
+    margin: 0 0.5em 1em;
+  }
+}
+.swell-link-list .swell-link a {
+  cursor: pointer;
+  border: solid 1px #fff;
+  background-color: transparent;
+  font-family: 'Arboria';
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 100%;
+  padding: 16px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media (min-width: 480px) {
+  .swell-link-list .swell-link a {
+    font-size: 18px;
+    padding: 12px 5px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-link-list .swell-link a {
+    font-size: 14px;
+    padding: 16px 5px;
+  }
+}
+.swell-link-list .swell-link a:hover {
+  background-color: #fff;
+  color: #1a227e;
+}
+/* Generic Buttons Code End */
+/* Coffee Reward and Refer Page Code Start */
+.swell-reward-dailysale {
+  /* Some Generic Section Code Start */
+  /* Some Generic Section Code End */
+  /* Banner Section Code Start */
+  /* Banner Section Code End */
+  /* Login Section Code Start */
+  /* Login Section Code End */
+  /* How-It-Work Section Code Start */
+  /* How-It-Work Section Code End */
+  /* Campaign Section Code Start */
+  /* Campaign Section Code End */
+  /* Vip Table Section Code Start */
+  /* Vip Table Section Code End */
+  /* Redeem Section Code Start */
+  /* Redeem Section Code End */
+  /* Account Page Code Overight Start */
+  /* Account Page Code Overight End */
+}
+.swell-reward-dailysale-wrapper {
+  display: none;
+}
+.swell-reward-dailysale ul {
+  padding: 0;
+  margin: 0;
+}
+.swell-reward-dailysale ul li {
+  list-style-type: none;
+}
+.swell-reward-dailysale img {
+  width: 100%;
+}
+.swell-reward-dailysale .swell-heading-section {
+  text-align: left;
+  margin-bottom: 30px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .swell-heading-section {
+    margin-bottom: 60px;
+  }
+}
+.swell-reward-dailysale .swell-heading-section .swell-heading {
+  font-family: 'Arboria';
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a227e;
+  margin: 0 auto 10px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .swell-heading-section .swell-heading {
+    font-size: 38px;
+  }
+}
+.swell-reward-dailysale .swell-heading-section .swell-detail {
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0 auto 20px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .swell-heading-section .swell-detail {
+    font-size: 16px;
+  }
+}
+.swell-reward-dailysale .swell-desktop {
+  display: none;
+}
+.swell-reward-dailysale .swell-mobile {
+  display: block;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .swell-desktop {
+    display: block;
+  }
+  .swell-reward-dailysale .swell-mobile {
+    display: none;
+  }
+}
+.swell-reward-dailysale .swell-container {
+  max-width: 1384px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.swell-reward-dailysale .dailysale-banner {
+  width: 100%;
+  margin-bottom: 70px;
+  background-image: url(http://localhost:8888/magento/pub/media/swell-banner-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  min-height: 600px;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .dailysale-banner {
+    margin-bottom: 100px;
+    min-height: 1000px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .dailysale-banner {
+    background-image: url(http://localhost:8888/magento/pub/media/swell-banner.jpg);
+    min-height: 60vh;
+  }
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 350px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption {
+    max-width: 450px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption {
+    max-width: 500px;
+  }
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption .caption-title {
+  font-family: 'Arboria';
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  margin: 0 auto 10px;
+  color: #fff;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .caption-title {
+    font-size: 92px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .caption-title {
+    font-size: 100px;
+  }
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption .caption-detail {
+  font-family: 'Arboria';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0 auto 40px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .caption-detail {
+    font-size: 20px;
+  }
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .swell-link {
+  margin-bottom: 10px;
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .banner-link .banner-detail {
+  font-family: 'Arboria';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .banner-link .banner-detail {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .banner-link .banner-detail {
+    font-size: 18px;
+  }
+}
+.swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .banner-link .banner-detail .log-in {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-position: under;
+  display: block;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .dailysale-banner .banner-caption .swell-link-list .banner-link .banner-detail .log-in {
+    display: inline-block;
+  }
+}
+.swell-reward-dailysale .swell-login-section {
+  text-align: center;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #346580;
+  padding-bottom: 70px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .swell-login-section {
+    margin-bottom: 100px;
+  }
+}
+.swell-reward-dailysale .swell-login-section .swell-login-user {
+  font-family: 'Arboria';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a227e;
+}
+.swell-reward-dailysale .swell-login-section .swell-login-user .swell-point-balance {
+  color: #fdb945;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .swell-login-section .swell-login-user {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .swell-login-section .swell-login-user {
+    font-size: 38px;
+  }
+}
+.swell-reward-dailysale .swell-login-section .swell-link-list .swell-link a {
+  border-color: #0094df;
+  color: #0094df;
+}
+.swell-reward-dailysale .swell-login-section .swell-link-list .swell-link a.swell-link-history {
+  background-color: #0094df;
+  color: #fff;
+}
+.swell-reward-dailysale .swell-login-section .swell-link-list .swell-link a:hover {
+  background-color: #0094df;
+  color: #fff;
+}
+.swell-reward-dailysale .how-it-work {
+  margin-bottom: 70px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .how-it-work {
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .how-it-work .hiw-list {
+    display: flex;
+  }
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items {
+  padding: 40px 15px;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items {
+    flex: 1;
+  }
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items:nth-child(1) {
+  background-color: #4abcad;
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items:nth-child(2) {
+  background-color: #0094df;
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items:nth-child(3) {
+  background-color: #1a227e;
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder {
+  max-width: 160px;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder {
+    max-width: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder {
+    max-width: 180px;
+  }
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-title {
+  font-family: 'Arboria';
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto 10px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-title {
+    font-size: 42px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-title {
+    font-size: 32px;
+  }
+}
+.swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-detail {
+  font-family: 'Arboria';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-detail {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .how-it-work .hiw-list .list-items .list-holder .list-detail {
+    font-size: 16px;
+  }
+}
+.swell-reward-dailysale .campaign-section {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.swell-reward-dailysale .campaign-section.logged-in {
+  margin-top: 70px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section {
+    margin-bottom: 100px;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: -15px;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list.logged-in .swell-campaign {
+  cursor: pointer;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign {
+  flex-basis: 50%;
+  margin: 0;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(6) .swell-campaign-content, .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(7) .swell-campaign-content {
+  margin-bottom: 0;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 15px;
+  min-height: 200px;
+  background: #4abcad;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-type {
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-type {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-type {
+    font-size: 15px;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-value {
+  margin: 0 auto 5px;
+  font-family: 'Arboria';
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content .swell-campaign-value {
+    font-size: 30px;
+  }
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign .swell-campaign-content {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    min-height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign {
+    flex-basis: 25%;
+  }
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(5) .swell-campaign-content {
+    margin-bottom: 0;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(1) .swell-campaign-content {
+  background-color: #fdb945;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(2) .swell-campaign-content {
+  background-color: #4abcad;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(3) .swell-campaign-content {
+  background-color: #0094df;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(4) .swell-campaign-content {
+  background-color: #fdb945;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(5) .swell-campaign-content {
+  background-color: #4abcad;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(6) .swell-campaign-content {
+  background-color: #0094df;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(7) {
+  flex-basis: 100%;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(7) {
+    flex-basis: 50%;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign:nth-child(7) .swell-campaign-content {
+  background-color: #19237e;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-value {
+  font-size: 24px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-value {
+    font-size: 36px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-value {
+    font-size: 30px;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-button {
+  width: 100%;
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-button .swell-campaign-button-content {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 30px auto 0;
+  padding: 12px 5px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Arboria';
+  font-weight: 600px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-button .swell-campaign-button-content {
+    font-size: 18px;
+    padding: 12px 5px;
+    max-width: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-button .swell-campaign-button-content {
+    font-size: 14px;
+    padding: 14px 5px;
+    max-width: 250px;
+  }
+}
+.swell-reward-dailysale .campaign-section .swell-campaign-list .swell-campaign.refer-friend .swell-campaign-content .swell-campaign-button .swell-campaign-button-content:hover {
+  background-color: #fff;
+  color: #1a227e;
+}
+.swell-reward-dailysale .vip-table-section {
+  text-align: center;
+  margin-bottom: 70px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section {
+    margin-bottom: 100px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-arrows {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-arrows {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-arrows {
+    display: none;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 34%;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder .arrow-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b6b6b;
+  flex: 1;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder .arrow-icon.right-arrow {
+  color: #1a227e;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder .arrow-icon {
+    font-size: 25px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder .value {
+  flex: 1;
+  font-family: 'Arboria';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.81;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-arrows .arrows-holder .value {
+    font-size: 24px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table th, .swell-reward-dailysale .vip-table-section .swell-tier-table td {
+  text-align: left;
+  border: 0;
+  width: 60%;
+  font-family: 'Arboria';
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  padding: 10px 5px;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table th .circle, .swell-reward-dailysale .vip-table-section .swell-tier-table td .circle {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-color: #000;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table th:not(:first-child), .swell-reward-dailysale .vip-table-section .swell-tier-table td:not(:first-child) {
+  text-align: center;
+  width: 30%;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table th:not(:first-child), .swell-reward-dailysale .vip-table-section .swell-tier-table td:not(:first-child) {
+    width: 15%;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table th:first-child, .swell-reward-dailysale .vip-table-section .swell-tier-table td:first-child {
+  padding-left: 25px;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table td:nth-child(4) {
+  display: none;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table th, .swell-reward-dailysale .vip-table-section .swell-tier-table td {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table th, .swell-reward-dailysale .vip-table-section .swell-tier-table td {
+    width: 40%;
+    font-size: 16px;
+  }
+  .swell-reward-dailysale .vip-table-section .swell-tier-table th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table td:nth-child(4) {
+    display: table-cell;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th {
+  position: relative;
+  vertical-align: middle;
+  padding: 30px 0 40px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th {
+    padding: 40px 0 60px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .current-tier {
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  right: 0;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .current-tier .gold {
+  font-size: 20px;
+  display: block;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .current-tier .gold {
+    font-size: 28px;
+  }
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .current-tier {
+    top: -50px;
+    font-size: 16px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .has-spent {
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .has-spent {
+    bottom: 10px;
+    font-size: 16px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .drop-icon {
+  position: absolute;
+  top: 26%;
+  left: 0;
+  right: 0;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th .drop-icon {
+    top: 20%;
+    font-size: 50px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(2) .gradient-color {
+  height: 10px;
+  background: linear-gradient(90deg, white 0%, #cbcbcb 50%, white 100%);
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(2) .gradient-color {
+    background: linear-gradient(90deg, rgba(203, 203, 203, 1) 0%, rgba(203, 203, 203, 1) 85%, rgba(251, 186, 74, 1) 100%);
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(2) .current-tier, .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(2) .has-spent {
+  color: #cbcbcb;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(2) .drop-icon .path1:before {
+  color: #cbcbcb;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(3) .gradient-color {
+  height: 10px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(251, 186, 74, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(3) .gradient-color {
+    background: linear-gradient(90deg, rgba(251, 186, 74, 1) 0%, rgba(251, 186, 74, 1) 85%, rgba(26, 34, 126, 1) 100%);
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(3) .current-tier, .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(3) .has-spent {
+  color: #fdb945;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(4) .gradient-color {
+  height: 10px;
+  background: linear-gradient(90deg, white 0%, #1a227e 50%, white 100%);
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(4) .gradient-color {
+    background: #1a227e;
+    background: linear-gradient(90deg, rgba(26, 34, 126, 1) 0%, rgba(26, 34, 126, 1) 95%, rgba(26, 34, 126, 1) 100%);
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(4) .current-tier, .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(4) .has-spent {
+  color: #1a227e;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-status-row th:nth-child(4) .drop-icon .path1:before {
+  color: #1a227e;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-values th {
+  line-height: 1.3;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th {
+    font-size: 24px;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th:nth-child(1) {
+  background-color: #f7f7f7;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th:nth-child(2) {
+  background-color: #cbcbcb;
+  color: #fff;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th:nth-child(3) {
+  background-color: #fdb945;
+  color: #fff;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table thead tr.swell-tier-names th:nth-child(4) {
+  background-color: #1a227e;
+  color: #fff;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table tbody tr th, .swell-reward-dailysale .vip-table-section .swell-tier-table tbody tr td {
+  border-bottom: 1px solid #346580;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table tbody tr:last-child th, .swell-reward-dailysale .vip-table-section .swell-tier-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr td:nth-child(2) {
+  display: table-cell;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr td:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr td:nth-child(4) {
+  display: none;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver thead tr td:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.silver tbody tr td:nth-child(4) {
+    display: table-cell;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr td:nth-child(3) {
+  display: table-cell;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr td:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr td:nth-child(4) {
+  display: none;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold thead tr td:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.gold tbody tr td:nth-child(4) {
+    display: table-cell;
+  }
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr th:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr td:nth-child(4), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr td:nth-child(4) {
+  display: table-cell;
+}
+.swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr td:nth-child(3) {
+  display: none;
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr th:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr th:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr td:nth-child(2), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum thead tr td:nth-child(3), .swell-reward-dailysale .vip-table-section .swell-tier-table.platinum tbody tr td:nth-child(3) {
+    display: table-cell;
+  }
+}
+.swell-reward-dailysale .redeem-section {
+  text-align: center;
+  padding: 60px 10px;
+  background-color: #f7f7f7;
+}
+.swell-reward-dailysale .redeem-section .swell-heading-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.swell-reward-dailysale .redeem-section .swell-heading-section .swell-heading {
+  margin-bottom: 0;
+}
+.swell-reward-dailysale .redeem-section .swell-heading-section .swell-detail {
+  color: #000;
+}
+.swell-reward-dailysale .redeem-section.logged-in .swell-redemption-option {
+  cursor: pointer;
+}
+.swell-reward-dailysale .redeem-section .redeem-point-section .redeem-point-img {
+  max-width: 200px;
+  margin: 0 auto 10px;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .redeem-point-img {
+    max-width: 340px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .redeem-point-img {
+    max-width: 400px;
+  }
+}
+.swell-reward-dailysale .redeem-section .redeem-point-section .point-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 270px;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .point-list {
+    max-width: 465px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .point-list {
+    max-width: 565px;
+  }
+}
+.swell-reward-dailysale .redeem-section .redeem-point-section .point-list .list-items {
+  flex: 1;
+}
+.swell-reward-dailysale .redeem-section .redeem-point-section .point-list .list-items .list-title {
+  font-family: 'Arboria';
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .point-list .list-items .list-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-reward-dailysale .redeem-section .redeem-point-section .point-list .list-items .list-title {
+    color: #1a227e;
+  }
+}
+.swell-reward-dailysale .account-page .referral-section .referral-banner {
+  background-image: none;
+  background-color: #1a227e;
+}
+/* Referral Section Code Start */
+.referral-section .referral-banner {
+  background-image: url(http://localhost:8888/magento/pub/media/swell-referral-image-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-banner {
+    background-image: url(http://localhost:8888/magento/pub/media/swell-referral-image.jpg);
+    min-height: 200px;
+  }
+}
+.referral-section .referral-banner .down-arrow {
+  position: absolute;
+  bottom: -44px;
+  left: 0;
+  right: 0;
+  max-width: 30px;
+  margin: 0 auto;
+}
+.referral-section .referral-banner .refer-friend-heading {
+  font-size: 30px;
+  font-family: 'Arboria';
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  color: #fff;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-banner .refer-friend-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-banner .refer-friend-heading {
+    font-size: 72px;
+  }
+}
+.referral-section .referral-section-holder {
+  padding-bottom: 80px;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder {
+    display: flex;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder {
+  margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder {
+    margin-bottom: 0;
+    flex: 1;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-sidebar {
+  display: none;
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main {
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 437px;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main {
+    min-height: 546px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main {
+    min-height: 419px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-heading {
+  font-family: 'Arboria';
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a227e;
+  margin: 0 auto 10px;
+  text-transform: uppercase;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-heading {
+    font-size: 42px;
+    margin: 0 auto 20px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
+  font-family: 'Arboria';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  max-width: 300px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  padding-bottom: 35px;
+  margin: 0 auto 35px;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
+    font-size: 20px;
+    max-width: 440px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-details {
+    font-size: 16px;
+    max-width: 380px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .refer-customer-error {
+  color: red;
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper {
+  max-width: 260px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper {
+    max-width: 360px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper {
+    max-width: 442px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-header-details {
+  font-family: 'Arboria';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin: 0 auto 30px;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-header-details {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-header-details {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list {
+    display: flex;
+  }
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list .swell-referral-form-list-field {
+    flex: 3;
+  }
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list .swell-referral-form-list-field:last-child {
+    flex: 1;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-field-input {
+  border: solid 1px #d7d7d8;
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6d6d;
+  background-color: #fff;
+  padding: 14px 15px;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-field-input {
+    margin-bottom: 0;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-form-wrapper .swell-referral-form-list-submit {
+  font-family: 'Arboria';
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  background-color: #1a227e;
+  border-color: #1a227e;
+  width: 100%;
+  padding: 13px 5px;
+  cursor: pointer;
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper {
+  width: 100%;
+  max-width: 260px;
+  margin: 25px auto 0;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper {
+    max-width: 360px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper {
+    max-width: 442px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-details {
+  font-family: 'Arboria';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+  margin: 0 auto 20px;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-details {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-details {
+    font-size: 16px;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list {
+  display: flex;
+  width: 100%;
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium {
+  flex: 1;
+  font-family: 'Arboria';
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  cursor: pointer;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium .swell-referral-medium-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium .swell-referral-medium-content .swell-referral-media-icon {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium .swell-referral-medium-content .swell-referral-media-icon {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium .swell-referral-medium-content .swell-referral-media-icon {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .swell-referral-holder .swell-referral-content-container .swell-referral-content-main .swell-referral-media-wrapper .swell-referral-media-list .swell-referral-medium.swell-share-referral-sms {
+    display: none;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder {
+  width: 100%;
+  color: #000;
+  display: none;
+  padding: 0 30px;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder {
+    flex: 1;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .check-reward-balance {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder .check-reward-balance {
+    margin-bottom: 20px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .check-reward-balance a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+  text-transform: capitalize;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .check-reward-balance a {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder .check-reward-balance a {
+    font-size: 18px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .swell-referral-heading {
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 10px;
+}
+.referral-section .referral-section-holder .redeem-holder .swell-referral-heading h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Arboria';
+  margin: 0 auto 20px;
+  color: #1a227e;
+  text-transform: initial;
+  letter-spacing: 0;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .swell-referral-heading h2 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder .swell-referral-heading h2 {
+    font-size: 32px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #8a898a;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive {
+  border: 0;
+  min-height: 195px;
+  max-height: 195px;
+  overflow-y: scroll;
+  padding-right: 20px;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive::-webkit-scrollbar {
+  width: 0.6em;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive::-webkit-scrollbar-track {
+  background: #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive::-webkit-scrollbar-thumb {
+  background-color: #1a227e;
+  outline: 1px solid slategrey;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: transparent;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr {
+  border: 0;
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr th, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr th, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr td, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr td {
+  font-size: 12px;
+  font-family: 'Arboria';
+  font-weight: normal;
+  text-align: left;
+  padding: 8px 5px;
+  border: 0;
+  background-color: transparent;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr th, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr th, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr td, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr td {
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table thead tr th, .referral-section .referral-section-holder .redeem-holder .table-classes .swell-table-responsive .swell-referral-table tbody tr th {
+  font-weight: 600;
+}
+.referral-section .referral-section-holder .redeem-holder .heading-area {
+  text-align: center;
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .heading-area {
+    max-width: 420px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  color: #1a227e;
+  text-transform: initial;
+  letter-spacing: 0;
+  font-family: 'Arboria';
+  line-height: 1.1;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder h4 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder h4 {
+    font-size: 32px;
+  }
+}
+.referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder p {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+@media (min-width: 480px) {
+  .referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .referral-section .referral-section-holder .redeem-holder .heading-area .heading-holder p {
+    font-size: 16px;
+  }
+}
+/* Referral Section Code End */
+/* Cross Link Code Start */
+.swell-referral-back-link {
+  width: 1em;
+  height: 1em;
+  max-width: 12px;
+  max-height: 12px;
+  display: block;
+  vertical-align: middle;
+  margin-left: auto;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  margin: 0 auto;
+}
+.swell-referral-back-link:after, .swell-referral-back-link:before {
+  background: #656667;
+  content: "";
+  height: 2px;
+  max-width: calc(12px * 1.414);
+  position: absolute;
+  top: 0;
+  transition: 0.05s ease-in-out background-color;
+  width: calc(1em * 1.414);
+}
+.swell-referral-back-link:before {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left;
+}
+.swell-referral-back-link:after {
+  right: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  transform-origin: right;
+}
+/* Cross Link Code End */
+/* Copy Pop-up Code Start */
+.swell-referral-copy {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.swell-referral-copy .swell-referral-copy-sidebar {
+  display: none;
+}
+.swell-referral-copy .swell-referral-copy-content {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f5f7;
+  padding: 60px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main {
+  text-align: center;
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-heading {
+  display: none;
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .logo-image {
+  max-width: 250px;
+  margin: 0 auto 30px;
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-link {
+  font-family: 'Arboria';
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a227e;
+  margin-bottom: 20px;
+}
+@media (min-width: 480px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-link {
+    font-size: 48px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-link {
+    font-size: 36px;
+  }
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-button {
+  max-width: 220px;
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Arboria';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  background-color: #1a227e;
+  border-color: #1a227e;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+@media (min-width: 480px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-button {
+    max-width: 300px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-copy-button {
+    max-width: 200px;
+    font-size: 14px;
+  }
+}
+.swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-details {
+  font-family: 'Arboria';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  margin: 0;
+}
+@media (min-width: 480px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-details {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-referral-copy .swell-referral-copy-content .swell-referral-copy-main .swell-referral-details {
+    font-size: 16px;
+  }
+}
+/* Copy Pop-up Code End */
+/* Post Checkout Pop-up Code Start */
+.swell-post-checkout-dailysale {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  display: none;
+}
+.swell-post-checkout-dailysale .swell-post-checkout-holder {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f5f7;
+  padding: 40px 15px;
+  position: relative;
+}
+.swell-post-checkout-dailysale .swell-post-checkout-holder .checkout-heading .logo-image {
+  max-width: 200px;
+  margin: 0 auto 10px;
+}
+.swell-post-checkout-dailysale .swell-post-checkout-holder .checkout-heading .swell-post-checkout-heading {
+  font-family: 'Arboria';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000;
+  margin: 0 auto 20px;
+}
+@media (min-width: 480px) {
+  .swell-post-checkout-dailysale .swell-post-checkout-holder .checkout-heading .swell-post-checkout-heading {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .swell-post-checkout-dailysale .swell-post-checkout-holder .checkout-heading .swell-post-checkout-heading {
+    font-size: 18px;
+  }
+}
+.swell-post-checkout-dailysale .swell-post-checkout-holder .referral-section .referral-section-holder {
+  padding-bottom: 0;
+}
+.swell-post-checkout-dailysale .swell-post-checkout-holder .referral-section .referral-section-holder .swell-referral-holder {
+  margin-bottom: 0;
+}
+/* Post Checkout Pop-up Code End */
+@keyframes swell-spinner-loader {
+  to {transform: rotate(360deg);}
+}
+.swell-spinner-holder {
+  position: relative;
+}
+.swell-spinner-loader:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #000;
+  animation: swell-spinner-loader .6s linear infinite;
+}
