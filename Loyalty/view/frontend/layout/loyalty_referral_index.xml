@@ -18,7 +18,7 @@
 
   <body>
     <referenceContainer name="content">
-      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty" template="loyalty.phtml"></block>
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty" template="referral.phtml"></block>
     </referenceContainer>
   </body>
 </page>
