@@ -1,54 +1,63 @@
-<div id="swell-customer-identification"
-data-authenticated="true"
-data-email="devzaeem.asifff@gmail.com"
-data-id="1"
-data-tags=""
-style="display:none;"
-></div>
+<div class="swell-referrals">
+  <section class="swell-referrals-section">
+    <img src="/magento2/pub/media/swell_assets/swell-referral-banner.jpg" alt="">
+    <div class="referral-container existing hidden">
+      <p class="refer-friend">REFER A FRIEND</p>
+      <p class="earn-free">Earn Free Leggings, For Real</p>
+      <span>Give your friends $10 off their first purchase of $95 <br>
+        or more and earn a free pair of leggings when they buy.
+      </span>
+    </div>
 
-<div class="swell-reward-dailysale">
-  <div class="referral-section">
-    <div class="referral-banner">
-      <h2 class="refer-friend-heading">Refer a friend</h2>
-      <img class="down-arrow" src="http://localhost:8888/magento/pub/media/swell-referral-arrow.png">
+    <div class="referral-container new">
+      <p class="refer-friend">REFER A FRIEND</p>
+      <p class="earn-free">Earn Free Leggings, For Real</p>
+      <span>Give your friends $10 off their first purchase of $95 <br>
+        or more and earn a free pair of leggings when they buy.
+      </span>
     </div>
-    <div class="swell-spinner-holder">
-      <div class="swell-spinner-loader">
-      </div>
-    </div>
-    <div class="swell-container">
-      <div class="referral-section-holder">
-        <div class="swell-referral-holder">
-          <div class="swell-referral">
+    <div class="referred-customers-section hidden">
+      <div class="referred-customers-table hidden">
+        <div class="referral-text-container">
+          <p>Your Referrals</p>
+          <div>
+            <table>
+              <tr>
+                <th>Email</th>
+                <th>Status</th>
+              </tr>
+            </table>
+          </div>
+          <p>How do I redeem my rewards balance?</p>
+          <span>You’ll receive a code for each free pair of leggings earned
+            via email 30 days after your friend makes their purchase.
+          </span>
+          <div class="button-container">
+            <a href="/cart">REDEEM NOW</a>
+            <a class="swell-history-link">CHECK REWARDS BALANCE</a>
           </div>
         </div>
-        <div class="redeem-holder">
-          <div class="check-reward-balance">
-            <a href="/loyalty/rewards/index">Check rewards balance</a>
+      </div>
+      <div class="img-container">
+        <img id="desktop-image" src="/magento2/pub/media/swell_assets/swell-referrals-model.jpg" alt="">
+        <img id="mobile-image" src="/magento2/pub/media/swell_assets/swell-referrals-model-mobile.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="/magento2/pub/media/swell_assets/swell-popup-image.jpg" alt="">
+          <div class="copy-content">
+            <span>SHARE YOUR REFERRALS</span>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <button class="copy-link" data-dismiss="modal">COPY LINK</button>
           </div>
-          <div class="swell-referral-heading">
-            <h2>Your Referrals</h2>
-          </div>
-          <div class="table-classes">
-            <div class="swell-table-responsive">
-              <table class="swell-referral-table">
-                <thead>
-                  <tr>
-                    <th>Email</th>
-                    <th>Status</th>
-                  </tr>
-                </thead>
-                <tbody class="table-data">
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="heading-area">
-            <div class="heading-holder">
-              <h4>How Do I Redeem<br>My Reward Balance?</h4>
-              <p>Now, the fun part! Simply redeem any rewards credit you've  earned directly at checkout.</p>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

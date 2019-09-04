@@ -1,5 +1,5 @@
 <?php
-namespace Swell\Loyalty\Controller\Refer;
+namespace Swell\Loyalty\Controller\Referral;
 class Index extends \Magento\Framework\App\Action\Action
 {
     /** @var  \Magento\Framework\View\Result\Page */

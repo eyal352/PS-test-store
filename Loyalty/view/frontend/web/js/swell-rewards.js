@@ -1,6 +1,36 @@
-// initializing 
+/* var config = {
+  paths: {
+    "swellAPI": "https://cdn.swellrewards.com/loader/0ZZcnlnlVNgcngz_gYjTQw.js"
+  },
+  shim: {
+    'swellAPI': {
+      'deps': ['jquery'],
+      'exports': 'swellAPI'
+    }
+  }
+};
+
+*/
+
+requirejs(['jquery'], function ($) {
+  $(document).ready(() => {
+    $(document).on("swell:initialized", () => {
+      console.log("swell initialized");
+    });
+
+    $(document).on("swell:setup", () => {
+      console.log("swell setup");
+    });
+  });
+});
+
+/*
 (function() {
+  $(document).on('swell:initialize', function () {
+    console.log('swell:initialize')
+  });
   $(document).on("swell:setup", function() {
+    console.log('swell:setup')
     Swell.Referral.initializeReferral(".swell-referral", SwellConfig.Referral.opts);
     setupReferrals();
 
@@ -251,3 +281,4 @@ function setupReferrals (){
   };
 }).call(this);
 
+*/

@@ -1,0 +1,344 @@
+section.swell-referrals-section {
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.swell-referrals-section img {
+    width: 50%;
+}
+
+.referrals-list,
+.referr-a-friend {
+    display: inline-block;
+    width: 49%;
+}
+
+p.refer-friend {
+    font-size: 20px;
+    font-family: "akzidenz-grotesk-extended",
+        sans-serif
+}
+
+p.earn-free {
+    font-size: 30px;
+    margin: -6px 0 18px 0;
+}
+
+.referral-container.new,
+.referral-container.existing {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+.existing input,
+.new input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 289px;
+    padding-bottom: 5px;
+}
+
+::placeholder {
+    color: grey !important;
+}
+
+input[type="text"] {
+    font-size: 13px;
+}
+
+label p {
+    margin-bottom: 32px;
+}
+
+form.existing button,
+form.new button {
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+}
+
+img.icon-image {
+    width: 19px !important;
+    height: 19px !important;
+}
+
+div.social-share-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.social-share-links p {
+    flex: 0 0 100%;
+}
+
+.social-share-links a {
+    display: inline-block;
+    width: 80px;
+    height: 63px;
+    vertical-align: top;
+}
+
+.social-share-links a>span {
+    display: block;
+}
+
+.swell-share-referral-facebook img.icon-image {
+    width: 12px !important;
+}
+
+.social-share-links a.swell-share-referral-sms {
+    display: none;
+}
+
+.referred-customers-table {
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.referred-customers-section {
+    background-color: #fdfbfa;
+    padding-top: 3rem;
+}
+
+.referred-customers-table .button-container {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.referred-customers-table .button-container a {
+    border: 1px solid black;
+    height: 40px;
+    width: 48%;
+    padding-top: 12px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.referred-customers-table .button-container a:nth-child(2) {
+    color: white;
+    background-color: black;
+}
+
+.referred-customers-section .img-container {
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+}
+
+.referral-text-container {
+    max-width: 370px;
+    margin: auto;
+}
+
+.referral-text-container>p {
+    font-size: 31px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+table th,
+td {
+    width: 180px;
+    border-bottom: 1px solid lightgrey;
+}
+
+table th {
+    font-weight: normal;
+}
+
+div.referred-customers-table>div>p:nth-child(3) {
+    font-size: 32px;
+}
+
+div.referred-customers-table>div>div:nth-child(2) {
+    max-height: 150px;
+    overflow: scroll;
+}
+
+#desktop-image {
+    display: inline;
+}
+
+#mobile-image {
+    display: none;
+}
+
+/* CSS for Custom Modal */
+
+#Modal {
+    position: fixed;
+    background-color: rgba(1, 1, 1, .7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 9999999999;
+    display: none;
+}
+
+.modal-dialog.modal-dialog-centered {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 33%;
+    transition: 0.9s;
+}
+
+.modal-content {
+    background-color: white;
+}
+
+.modal-body img {
+    height: 400px;
+    margin-bottom: -4px;
+}
+
+.copy-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    margin-left: 60px;
+    margin-top: 17%;
+    font-size: 19px;
+    text-align: center;
+}
+
+.copy-content .referral-link {
+    margin: 20px 0px;
+    font-size: 27px;
+    width: fit-content;
+}
+
+button.close {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    color: white;
+    font-size: 50px;
+    border: none;
+}
+
+button.copy-link {
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+@media screen and (max-width: 950px) {
+    .swell-referrals-section img {
+        width: 100%;
+    }
+
+    .social-share-links a.swell-share-referral-sms {
+        display: inline-block;
+    }
+
+    .social-share-links a {
+        /*  margin-right: 14px;
+        margin-left: 0px; */
+
+    }
+
+    .referred-customers-table .button-container a {
+        font-size: 15px;
+        display: block;
+        margin: .5rem auto;
+    }
+
+    .existing input,
+    .new input {
+        width: 291px;
+    }
+
+    .referral-container.new,
+    .referral-container.existing {
+        margin-bottom: 3rem;
+        width: 100%;
+
+    }
+
+    .referred-customers-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .referred-customers-table {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    div.referred-customers-table>div>div:nth-child(2) {
+        text-align: left;
+        width: 91%;
+        margin: auto;
+    }
+
+    form.existing button,
+    form.new button {
+        padding-bottom: 4px;
+    }
+
+    .referred-customers-section .img-container {
+        width: 100%;
+    }
+
+    .referred-customers-table .button-container a {
+        width: 68%;
+    }
+
+    .referral-text-container>p {
+        font-size: 45px;
+    }
+
+    #desktop-image {
+        display: none;
+    }
+
+    #mobile-image {
+        display: inline;
+    }
+
+    .modal-content {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .modal-body img {
+        display: block;
+        height: 330px;
+    }
+
+    .copy-content {
+        display: block;
+        padding-bottom: 3rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .copy-content .referral-link {
+        font-size: 33px;
+        margin: 1.5rem;
+        margin-left: -25px;
+        width: fit-content;
+    }
+
+    .modal-dialog.modal-dialog-centered {
+        top: 20%;
+        width: inherit;
+    }
+
+}
