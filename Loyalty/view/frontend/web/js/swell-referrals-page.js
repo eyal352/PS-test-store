@@ -3,7 +3,7 @@ requirejs(['jquery'], function ($) {
     $(document).ready(() => {
         $(document).on("swell:initialized", () => {
             console.log("swell initialized");
-             referral.showReferralForm();
+            referral.showReferralForm();
         });
 
         $(document).on("swell:setup", () => {

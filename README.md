@@ -4,7 +4,9 @@ Swell Loyalty and Referral pages for Magento 2
 
 Link to references doc: https://docs.google.com/document/d/1x0gjuC7-YvJh4nnfZyUa_RtHJy6u56S1b1drCYLREOk/edit?usp=sharing
 
-Add media files to /magento/pub/media/
+NOTE: For media files (images/videos/icons/etc) navigate to /magento/pub/media/ and create a folder named swell_assets to place all image assets
+
+## Initial Setup
 
 Commands to run after installing the folder:
 
@@ -15,7 +17,9 @@ sudo php bin/magento indexer:reindex
 sudo a2enmod rewrite
 sudo service apache2 restart
 sudo php bin/magento setup:static-content:deploy
-sudo chmod -R 777 /var/www/html/magento2 (optional - if running the previous commands breaks Magento, changing the directory permissions could be a potential fix)
+
+If the commands break Magento, the issue could be with file permissions. The following line should fix the issue:
+sudo chmod -R 777 /var/www/html/magento2
 sudo php bin/magento setup:upgrade
 
 ## If Swell does not load because there is an issue with the URL path:
@@ -45,18 +49,7 @@ sudo php bin/magento cache:flush
 
 ## When using jQuery
 
-Do not use the $ to call jQuery, as it is not declared in the global space (where your classes will declared) as it will not work. The global jQuery object available in Magento 2 is 'jQuery', not '$'
-
-sudo php bin/magento setup:di:compile
-sudo php bin/magento cache:clean
-sudo php bin/magento cache:flush
-sudo php bin/magento indexer:reindex
-sudo a2enmod rewrite
-sudo service apache2 restart
-sudo php bin/magento setup:static-content:deploy
-sudo chmod -R 777 /var/www/html/magento2
-sudo php bin/magento setup:upgrade
-
+Do not use the $ symbol to call jQuery, as it is not declared in the global space (where your JavaScript classes will declared) as it will not work. The global jQuery object available in Magento 2 is 'jQuery', not '$'
 
 # Developing on the client via SSH
 
@@ -72,4 +65,15 @@ Once Visual Studo and the remote SSH application are installed, create a config 
     HostName IPAddressOfServer ie. 10.101.7.38
     IdentityFile locationAndNameOfSSHKeys ie. ~/ps-creds.txt
 ````
+
+So the final example would look something like the following:
+````
+ Host PS-Server
+    User root
+    HostName 10.101.7.38
+    IdentityFile ~/ps-creds.txt
+````
+
+For more info, see the documentation (here)[https://code.visualstudio.com/docs/remote/ssh]
+
 Note: there must be an SSH keyfile saved somewhere on your computer and referred to by the IdentityFile parameter of the config file in order for SSH to work 

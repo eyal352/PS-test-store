@@ -72,3 +72,28 @@ swellDef = {
         }
     ]
 }
+
+var checkCustomerStatus = function(loggedIn){
+    if (loggedIn === true){
+        jQuery('.logged-in-view').show();
+        jQuery('.logged-out-view').hide();
+        console.log(`logged in status: ${loggedIn}`)
+    } else {
+        jQuery('.logged-in-view').hide();
+        jQuery('.logged-out-view').show();
+        console.log(`logged in status: ${loggedIn}`)
+    }
+
+}
+
+const checkCustomerLoggedIn = function(){
+    if (jQuery('.logged-in').length >= 1 && jQuery('.not-logged-in').length == 0){
+        jQuery('.logged-in-view').show();
+        jQuery('.logged-out-view').hide();
+        console.log(`logged in status: logged in`)
+    } else if (jQuery('.not-logged-in').length >= 1 && jQuery('.logged-in').length == 0) {
+        jQuery('.logged-in-view').hide();
+        jQuery('.logged-out-view').show();
+        console.log(`logged in status: logged out`)
+    }
+}

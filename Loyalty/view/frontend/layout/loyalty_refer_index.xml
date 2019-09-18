@@ -3,7 +3,8 @@
   xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
   <head>
     <script src="https://cdn.swellrewards.com/loader/0ZZcnlnlVNgcngz_gYjTQw.js" src_type="url" />
-    <css src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  src_type="url" rel="stylesheet" type="text/css"  /> -->
+    <!--<css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE="  src_type="url" rel="stylesheet" type="text/css"  />-->
+    <css src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  src_type="url" rel="stylesheet" type="text/css"  />
     <script src="Swell_Loyalty::js/swell-constants.js"/>
     <script src="Swell_Loyalty::js/swell-referrals.js"/>
     <script src="Swell_Loyalty::js/swell-referrals-page.js"/>

@@ -2,21 +2,39 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
   <head>
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" src_type="url" /> -->
-    <script src="Swell_Loyalty::js/jquery.js"/>
-
-    <script src="https://cdn.swellrewards.com/loader/2KBgdjh7tRwVGxKzwimUOg.js" src_type="url" />
-    <script src="http://assets-cloudfront.swellrewards.com/app.v1.0.275.js" src_type="url" />
-
     <!-- <css src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  src_type="url" rel="stylesheet" type="text/css"  /> -->
+     <script src="https://cdn.swellrewards.com/loader/0ZZcnlnlVNgcngz_gYjTQw.js" src_type="url" />
+    <script src="Swell_Loyalty::js/swell-constants.js"/>
+    <script src="Swell_Loyalty::js/swell-rewards-campaign.js"/>
+    <script src="Swell_Loyalty::js/swell-rewards-vip.js"/>
+    <script src="Swell_Loyalty::js/swell-rewards-page.js"/>
+    <script src="Swell_Loyalty::js/swell-rewards-faq.js"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-reward-banner.css"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-reward-vip.css"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-rewards-campaign.css"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-rewards-discount.css"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-rewards-faq.css"/>
+    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/slick.css"/>
+    <css src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  src_type="url" rel="stylesheet" type="text/css"  />
+    
 
-    <script src="Swell_Loyalty::js/swell-rewards.js"/>
-    <css rel="stylesheet" type="text/css" src="Swell_Loyalty::css/swell-rewards.css"/>
   </head>
 
   <body>
     <referenceContainer name="content">
-      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty" template="rewards.phtml"></block>
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty_banner" template="rewards-banner.phtml"></block>
+    </referenceContainer>
+    <referenceContainer name="content">
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty_vip" template="rewards-vip.phtml"></block>
+    </referenceContainer>
+    <referenceContainer name="content">
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty_discount" template="rewards-discount.phtml"></block>
+    </referenceContainer>
+    <referenceContainer name="content">
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty_campaign" template="rewards-campaign.phtml"></block>
+    </referenceContainer>
+    <referenceContainer name="content">
+      <block class="Swell\Loyalty\Block\Loyalty" name="swell_loyalty_faq" template="rewards-faq.phtml"></block>
     </referenceContainer>
   </body>
 </page>

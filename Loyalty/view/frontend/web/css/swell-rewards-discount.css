@@ -1,0 +1,77 @@
+section.swell-rewards-discounts {
+    text-align: center;
+    position: relative;
+    overflow: auto;
+}
+
+.swell-rewards-discounts img {
+    width: 50%;
+    float: right;
+}
+
+.info-container {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    margin: 11% 0 0 -25%;
+}
+
+.info-container p.title-p {
+    font-size: 26px;
+}
+
+.info-container .desktop-view span {
+    margin-right: 21px;
+    margin-left: 21px;
+    display: block;
+}
+
+.info-container .desktop-view {
+    margin-top: 30px;
+}
+
+.info-container .mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .info-container .desktop-view {
+        display: none;
+    }
+
+    .info-container .mobile-view {
+        display: block;
+        margin: 3rem 0;
+    }
+
+    .info-container>span {
+        font-size: 18px;
+    }
+
+    .swell-rewards-discounts img {
+        width: 90%;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .info-container {
+        width: 90%;
+        display: inline-block;
+        position: inherit;
+        margin: auto;
+
+    }
+
+    .info-container p.title-p {
+        font-size: 38px;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-view hr {
+        width: 123px;
+        margin: 15px auto;
+    }
+
+}

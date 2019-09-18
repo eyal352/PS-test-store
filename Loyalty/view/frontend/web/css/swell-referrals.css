@@ -38,7 +38,11 @@ p.earn-free {
     border: none;
     border-bottom: 1px solid black;
     width: 289px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
+}
+
+.fa span {
+    display: block;
 }
 
 ::placeholder {

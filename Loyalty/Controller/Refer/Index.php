@@ -1,5 +1,5 @@
 <?php
-namespace Swell\Loyalty\Controller\Referral;
+namespace Swell\Loyalty\Controller\Refer;
 class Index extends \Magento\Framework\App\Action\Action
 {
     /** @var  \Magento\Framework\View\Result\Page */
@@ -18,7 +18,7 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        $resultPage->getConfig()->getTitle()->prepend(__('Referral'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Refer'));
         return $resultPage;
     }
 }

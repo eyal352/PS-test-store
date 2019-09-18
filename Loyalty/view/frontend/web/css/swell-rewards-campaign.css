@@ -1,0 +1,99 @@
+.swell-rewards-campaign {
+    background-color: white;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.swell-rewards-campaign .section-title {
+    font-size: 26px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: 'akzidenz-grotesk', sans-serif !important;
+}
+
+.campaign-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 150px 150px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.campaign-grid .grid-item {
+    text-align: center;
+    border-right: 1px solid #dfdfdf;
+    padding-left: 1.5rem;
+    color: grey;
+    background-color: lightgray;
+}
+
+.campaign-grid .grid-item:nth-child(-n+4) {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.campaign-grid .grid-item:nth-child(4n+4) {
+    border-right: none;
+}
+
+.campaign-grid .grid-item img {
+    margin-top: 1.5rem;
+    width: 41px;
+}
+
+#\34 88116>img {
+    width: 70px;
+    margin-top: 6px;
+    margin-bottom: -12px;
+}
+
+#482216 {
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+    .swell-rewards-campaign .section-title{
+        font-size: 35px;
+    }
+
+    .campaign-grid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 180px 180px 180px 180px;
+        margin-bottom: 4rem;
+    }
+
+    .campaign-grid .grid-item {
+        text-align: center;
+        border-bottom: 1px solid #dfdfdf;
+        padding: 0px !important;
+    }
+
+    .campaign-grid .grid-item:nth-child(odd) {
+        border-right: 1px solid #dfdfdf;
+    }
+
+    .campaign-grid .grid-item:nth-child(even) {
+        border-right: none;
+        border-bottom: 1px solid #dfdfdf;
+    }
+
+    .campaign-grid .grid-item:nth-child(n+7) {
+        border-bottom: none;
+    }
+
+    .campaign-grid .grid-item img {
+        margin-top: 2rem;
+        width: 43px;
+        height: 41px;
+    }
+
+    .campaign-grid #488116 img {
+        width: 130px;
+    }
+
+    .campaign-grid .grid-item p.rewards-points {
+        margin: 0;
+    }
+
+}

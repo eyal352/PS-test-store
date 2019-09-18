@@ -1,0 +1,76 @@
+.swell-faq {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 7rem; */
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.swell-faq h2 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 36px;
+}
+
+.swell-faq-list {
+    width: 70%;
+}
+
+span.swell-faq-text {
+    font-weight: initial;
+}
+
+.swell-faq-explanation {
+    text-align: left;
+    display: none;
+    width: 100%;
+}
+
+.swell-faq-load-more {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.swell-faq-list li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 1rem 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.button-container-faq {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    display: none;
+    width: fit-content;
+    text-align: center;
+}
+
+.button-container-faq a {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 165px;
+    padding-top: 12px;
+    display: inline-block;
+}
+
+.button-container-faq a:nth-child(2) {
+    color: black;
+    background-color: white;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.button-container-faq.swell-faq-explanation {
+    display: none !important;
+}

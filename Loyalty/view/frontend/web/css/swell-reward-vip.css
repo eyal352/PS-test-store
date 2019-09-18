@@ -1,0 +1,190 @@
+section.swell-rewards-vip {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 3rem;
+    text-align: center;
+    /*  border-bottom: 1px solid lightgrey; */
+}
+
+.swell-rewards-vip .section-header {
+    font-family: 'akzidenz-grotesk', sans-serif !important;
+    font-size: 27px;
+    margin-bottom: 1rem;
+}
+
+.benefits-label {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 220px;
+    margin-right: -5px;
+    margin-top: 33px;
+}
+
+.benefits-container {
+    display: inline-block;
+}
+
+.benefits-label .benefits-header {
+    height: 55px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.benefits-label .benefits-header p {
+    padding: 27px 0px;
+    margin-top: 16px;
+    font-size: 21px;
+}
+
+.active-tier .table-header {
+    margin-top: -61px;
+}
+
+.vip-container {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.vip-level {
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
+    border-right: 1px solid white;
+    margin-top: 33px;
+    /* height: 400px; */
+}
+
+.vip-level .table-header p {
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.vip-level .table-header {
+    height: 71px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.vip-level>img {
+    margin: auto;
+    margin-top: -36px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.table-element {
+    height: 30px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.table-element:last-child {
+    border-bottom: none;
+}
+
+.table-element p {
+    margin-top: 14px;
+}
+
+.table-element p svg {
+    width: 11px !important;
+}
+
+.benefits-name {
+    height: 44px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.benefits-name:last-child {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 950px) {
+    .vip-level {
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+    }
+
+    .active-tier .table-header {
+        margin-top: -47px;
+    }
+
+    .vip-container {
+        margin-top: 8rem;
+        min-width: 400px;
+    }
+
+    .benefits-container {
+        width: 200px;
+    }
+
+    .benefits-label {
+        width: 200px;
+    }
+
+    .benefits-label .benefits-header {
+        height: 83px;
+        font-size: 22px;
+    }
+
+    .benefits-label .benefits-header p {
+        margin-top: 22px;
+    }
+
+    .benefits-name {
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .button-container {
+        height: 70px;
+    }
+
+    .vip-level .table-header {
+        height: 73px;
+    }
+
+    .slick-next,
+    .slick-prev {
+        top: -20% !important;
+    }
+
+    .slick-prev:before {
+        background-image: url("/magento2/pub/media/swell_assets/swell-left-vip-arrow.png") !important;
+        width: 50px;
+        height: 50px;
+        opacity: 0.6 !important;
+    }
+
+    .slick-next:before {
+        background-image: url("/magento2/pub/media/swell_assets/swell-right-vip-arrow.png") !important;
+        width: 50px;
+        height: 50px;
+        opacity: 0.6 !important;
+    }
+
+    .slick-next {
+        right: 34px !important;
+    }
+
+    .slick-prev {
+        left: 0px !important;
+    }
+
+    .slick-slider {
+        display: inline-block !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .benefits-container {
+        width: 160px;
+    }
+
+    .benefits-label {
+        width: 150px;
+    }
+    
+    #MainContent {
+        width: 400px;
+    }
+}
