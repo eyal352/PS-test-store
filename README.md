@@ -2,7 +2,7 @@
 
 Swell Loyalty and Referral pages for Magento 2
 
-Link to references doc [here] (https://docs.google.com/document/d/1x0gjuC7-YvJh4nnfZyUa_RtHJy6u56S1b1drCYLREOk/edit?usp=sharing)
+Link to references doc [here](https://docs.google.com/document/d/1x0gjuC7-YvJh4nnfZyUa_RtHJy6u56S1b1drCYLREOk/edit?usp=sharing)
 
 NOTE: For media files (images/videos/icons/etc) navigate to /magento/pub/media/ and create a folder named swell_assets to place all image assets
 
@@ -62,7 +62,7 @@ Do not use the `$` symbol to call jQuery, as it is not declared in the global sp
 
 # Developing on the client via SSH
 
-The easiest method for developing the app on the client is to use [Visual Studio Code] (https://visualstudio.microsoft.com/) and download the [remote SSH application] (https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+The easiest method for developing the app on the client is to use [Visual Studio Code](https://visualstudio.microsoft.com/) and download the [remote SSH application](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 Once Visual Studo and the remote SSH application are installed, create a config file via the following:
 1. in VSC press 'command + shift + p' to open the Command Pallete and type `connect to host` and select `REMOTE-SSH: Connect to Host` option
@@ -83,6 +83,5 @@ So the final example would look something like the following:
     IdentityFile ~/ps-creds.txt
 ````
 
-For more info, see the documentation (here)[https://code.visualstudio.com/docs/remote/ssh]
-
+For more info, see the documentation [here](https://code.visualstudio.com/docs/remote/ssh)
 Note: there must be an SSH keyfile saved somewhere on your computer and referred to by the IdentityFile parameter of the config file in order for SSH to work 
