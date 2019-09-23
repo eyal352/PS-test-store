@@ -2,6 +2,8 @@
 
 Swell Loyalty and Referral pages for Magento 2
 
+After a successfuly installation, the user will have two new pages available at storeURL.com/loyalty/refer and storeURL.com/loyalty/rewards
+
 Link to references doc [here](https://docs.google.com/document/d/1x0gjuC7-YvJh4nnfZyUa_RtHJy6u56S1b1drCYLREOk/edit?usp=sharing)
 
 NOTE: For media files (images/videos/icons/etc) navigate to /magento/pub/media/ and create a folder named swell_assets to place all image assets
