@@ -86,4 +86,5 @@ So the final example would look something like the following:
 ````
 
 For more info, see the documentation [here](https://code.visualstudio.com/docs/remote/ssh)
+
 Note: there must be an SSH keyfile saved somewhere on your computer and referred to by the IdentityFile parameter of the config file in order for SSH to work properly
